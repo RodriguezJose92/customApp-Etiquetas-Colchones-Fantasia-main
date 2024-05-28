@@ -1,0 +1,59 @@
+
+type TagResult {
+  id:String
+  idTag:String
+  urlImg:String
+  isImgUse:Boolean
+  textTag:String
+  colorTag:String
+  sizeFontTag:String
+  dateInit:String
+  dateEnd:String
+  endInDate:Boolean
+  active:Boolean
+  colorTextTag:String
+}
+type ResultData {
+  isCreate:Boolean
+  id:String
+}
+type ResultDataUpdate {
+  isUpdate:Boolean
+}
+type ResultDataDelete {
+  isDelete:Boolean
+}
+type Query {
+  total: Int
+  getProductTagCustom: [TagResult]
+}
+
+type Mutation {
+  delete(id: String): Boolean
+  deleteProductTagCustom(id: String!): ResultDataDelete
+  setProductTagCustom(
+    idTag:String!
+    urlImg:String!
+    isImgUse:Boolean!
+    textTag:String!
+    colorTag:String!
+    sizeFontTag:String!
+    dateInit:String!
+    dateEnd:String!
+    colorTextTag:String!
+    endInDate:Boolean!
+    active:Boolean!): ResultData
+  updateProductTagCustom(
+    id:String!
+    idTag:String!
+    urlImg:String!
+    isImgUse:Boolean!
+    textTag:String!
+    colorTag:String!
+    sizeFontTag:String!
+    dateInit:String!
+    dateEnd:String!
+    colorTextTag:String!
+    endInDate:Boolean!
+    active:Boolean!): ResultDataUpdate
+}

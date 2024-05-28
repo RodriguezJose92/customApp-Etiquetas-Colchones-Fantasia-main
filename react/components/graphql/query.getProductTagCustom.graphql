@@ -1,0 +1,16 @@
+query getProductTagCustom{
+  getProductTagCustom{
+    idTag
+    urlImg
+    isImgUse
+    textTag
+    colorTag
+    sizeFontTag
+    dateInit
+    dateEnd
+    endInDate
+    active
+    colorTextTag
+    id
+  }
+}

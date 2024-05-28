@@ -1,0 +1,29 @@
+mutation setProductTagCustom(
+  $idTag: String! 
+  $urlImg: String! 
+  $isImgUse: Boolean!
+  $textTag: String! 
+  $colorTag: String! 
+  $sizeFontTag: String!
+  $dateInit: String! 
+  $dateEnd: String!
+  $colorTextTag: String!
+  $active: Boolean!
+  $endInDate: Boolean!){
+  setProductTagCustom(
+    active: $active
+    endInDate: $endInDate
+    dateInit: $dateInit
+    dateEnd: $dateEnd
+    textTag: $textTag
+    colorTag: $colorTag
+    sizeFontTag: $sizeFontTag
+    idTag: $idTag
+    urlImg: $urlImg
+    colorTextTag: $colorTextTag
+    isImgUse: $isImgUse
+    ){
+      isCreate
+      id
+  }
+}

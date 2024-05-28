@@ -1,0 +1,32 @@
+.contentModal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contentProduct{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productImg{
+
+}
+.contentProductImgTag{
+    position: absolute;
+    height: 100px;
+    width: 135px;
+    top: 0;
+    left: 0;
+}
+.productImgTag{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.contentText{
+    color: rgb(255, 0, 0);
+    font-size: 12px;
+    text-align: center;
+    margin: 15px 0;
+}

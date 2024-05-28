@@ -1,0 +1,6 @@
+mutation deleteProductTagCustom(
+  $id: String!){
+  deleteProductTagCustom(id: $id){
+      isDelete
+  }
+}

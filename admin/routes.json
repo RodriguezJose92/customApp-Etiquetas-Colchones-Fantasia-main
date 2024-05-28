@@ -1,0 +1,6 @@
+{
+  "admin.app.custom-product-tags": {
+    "component": "CustomProductTags",
+    "path": "/admin/app/custom-product-tags"
+  }
+}

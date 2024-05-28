@@ -1,0 +1,13 @@
+{
+  "section": "storeSetup",
+  "titleId": "admin-custom-product-tags.navigation.label-group",
+  "subSection": "contentProduct",
+  "searchKeyWordsHelpers": "admin-custom-product-tags.navigation.search.kws",
+  "subSectionItems": [
+    {
+      "labelId": "admin-custom-product-tags.navigation.label-table",
+      "path": "/admin/custom-product-tags",
+      "searchKeyWordsHelpers": "admin-custom-product-tags.navigation.table.search.kws"
+    }
+  ]
+}

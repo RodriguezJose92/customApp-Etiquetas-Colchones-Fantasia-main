@@ -1,0 +1,6 @@
+{
+  "stack": "nodejs",
+  "memory": 512,
+  "ttl": 43200,
+  "timeout": 300
+}
